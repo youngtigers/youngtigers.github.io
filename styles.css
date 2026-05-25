@@ -265,21 +265,6 @@ h3 {
   margin-bottom: 0;
 }
 
-.cv-layout {
-  display: grid;
-  grid-template-columns: 280px minmax(0, 1fr);
-  gap: 24px;
-  align-items: start;
-}
-
-.cv-preview {
-  width: 100%;
-  height: 720px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--paper);
-}
-
 .contact-block h2:not(:first-child) {
   margin-top: 24px;
 }
@@ -317,13 +302,8 @@ h3 {
     max-width: 320px;
   }
 
-  .content-grid,
-  .cv-layout {
+  .content-grid {
     grid-template-columns: 1fr;
-  }
-
-  .cv-preview {
-    height: 560px;
   }
 }
 
