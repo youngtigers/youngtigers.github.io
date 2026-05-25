@@ -260,8 +260,13 @@ h3 {
   display: inline;
 }
 
+.paper-list h3 {
+  display: inline;
+}
+
 .paper-list p {
   color: var(--muted);
+  margin-top: 6px;
   margin-bottom: 0;
 }
 
