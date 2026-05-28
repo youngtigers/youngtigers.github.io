@@ -160,6 +160,13 @@ h3 {
   margin-top: 28px;
 }
 
+.resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 0 20px;
+}
+
 .button {
   align-items: center;
   border: 1px solid var(--line);
